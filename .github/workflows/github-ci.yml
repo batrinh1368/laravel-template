@@ -3,7 +3,7 @@ name: Laravel
 on: [push]
 
 jobs:
-  laravel-tests:
+  laravel-ci:
     runs-on: ubuntu-latest
     container:
       image: trinhnv/php-laravel:latest
